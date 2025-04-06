@@ -12,7 +12,7 @@ class Atm:
     """ If you specify a method in constructor it will call method automatically when the object is defined """
     def __init__(self):
         
-        # attributes
+        # attributes (variables when defined outside constructor)
         self.pin = ""
         self.balance = 0
         self.menu()
@@ -106,6 +106,8 @@ class Atm:
         
 
 obj = Atm()
+
+
 
         
         
